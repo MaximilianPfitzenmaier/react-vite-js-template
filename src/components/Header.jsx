@@ -10,15 +10,11 @@ import '../assets/scss/header.scss';
 
 const navLinks = [
   {name: 'Home', path: '/'},
-  {
-    name: 'Sampling',
-    path: '/sampling',
-  },
 ];
 
 /**
  * Header Component
- * @return {header} The sum of the two numbers.
+ * @return {Header} The sum of the two numbers.
  */
 const Header = () => {
   const location = useLocation();

@@ -5,7 +5,9 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Home from './pages/Home';
-import Sampling from './pages/Sampling';
+
+// import helper
+import * as Helper from './utils/helper';
 
 // import styling
 import './assets/scss/default.scss';
@@ -24,7 +26,6 @@ const App = () => {
           <div className="container">
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/sampling" element={<Sampling />} />
             </Routes>
           </div>
           <Footer />
