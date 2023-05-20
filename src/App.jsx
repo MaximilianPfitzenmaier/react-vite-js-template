@@ -9,8 +9,8 @@ import Home from './pages/Home';
 // import helper
 import * as Helper from './utils/helper';
 
-// import styling
-import './assets/scss/default.scss';
+// import global styling
+import './assets/scss/global.scss';
 
 
 /**
