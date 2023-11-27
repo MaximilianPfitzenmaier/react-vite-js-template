@@ -8,10 +8,11 @@ import Home from './pages/Home';
 
 // import helper
 import * as Helper from './utils/helper';
-
 // import global styling
 import './assets/scss/global.scss';
 
+// Call the helper function
+Helper.thisIsAHelperFunction();
 
 /**
  * The App
