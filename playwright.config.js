@@ -1,4 +1,4 @@
-import { defineConfig, devices } from '@playwright/test';
+import {defineConfig, devices} from '@playwright/test';
 
 /**
  * Read environment variables from file.
@@ -20,7 +20,7 @@ export default defineConfig({
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 1 : 1,
-  reporter: [['html'], ['junit', { outputFile: './playwright-results.xml' }]],
+  reporter: [['html'], ['junit', {outputFile: './playwright-tests/test-results/playwright-results.xml'}]],
   use: {
     actionTimeout: 0,
     baseURL: 'http://localhost:4000',
@@ -33,7 +33,7 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      use: {...devices['Desktop Chrome']},
     },
 
     // {
@@ -57,5 +57,5 @@ export default defineConfig({
     // },
   ],
 
-  outputDir: 'test-results/',
+  outputDir: './playwright-tests/test-results/',
 });
