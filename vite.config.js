@@ -14,6 +14,10 @@ export default defineConfig({
     jsxFactory: 'React.createElement',
     jsxFragment: 'React.Fragment',
   },
+  server: {
+    host: 'localhost',
+    port: 4000,
+  },
   // dont hash fonts and svgs
   build: {
     rollupOptions: {

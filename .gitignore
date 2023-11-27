@@ -24,3 +24,8 @@ dist-ssr
 *.sw?
 
 *-lock.json
+
+
+# Playwright
+playwright-report
+playwright-results.xml
