@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "description": "A samling Application",
+  "description": "Awsome Application",
   "author": "Maximilian Pfitzenmaier",
   "private": true,
   "version": "0.0.0",
@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.40.0",
-    "@types/react": "^18.2.38",
+    "@types/react": "^18.2.39",
     "@types/react-dom": "^18.2.17",
     "@vitejs/plugin-react": "^4.2.0",
     "dotenv": "^16.3.1",
@@ -34,7 +34,7 @@
     "prettier": "3.1.0",
     "sass": "^1.69.5",
     "stylelint": "^15.11.0",
-    "vite": "^5.0.2"
+    "vite": "^5.0.3"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
